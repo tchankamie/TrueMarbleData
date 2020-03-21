@@ -28,7 +28,7 @@ namespace TrueMarbleData
             //int getNumTiles = TrueMarble.GetNumTiles(zoomLevel, out numTilesX, out numTilesY);
             //int getTileSize = TrueMarble.GetTileSize(out width, out height);
             //int getTileImageAsRawJPG = TrueMarble.GetTileImageAsRawJPG(zoomLevel, tileX, tileY, out imageBuf, bufSize, out jpgSize );
-
+            
             var zoomLevel = 3;
             var tileX = 3000000;
             var tileY = 3000000;
