@@ -32,7 +32,7 @@ namespace TrueMarbleData
             var zoomLevel = 3;
             var tileX = 3000000;
             var tileY = 3000000;
-            var bufSize = 10000000;
+            var bufSize = tileX * tileY *3 ;
 
             TMDataControllerImpl obj = new TMDataControllerImpl(zoomLevel, tileX, tileY, bufSize);
 
